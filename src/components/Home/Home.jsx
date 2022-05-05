@@ -145,7 +145,7 @@ const Home = () => {
                             </div>
                             
                             <div className="d-flex flex-column align-items-center">
-                                <CopyToClipboard text={`https://v-meet-puneet.netlify.app/${room}`} >
+                                <CopyToClipboard text={`https://cbitvideochat.netlify.app/${room}`} >
                                     <button className="btn btn-primary function" >
                                         <i className="fas fa-copy p-2" /> 
                                     </button>
@@ -161,12 +161,7 @@ const Home = () => {
                                 <h6 className="pt-3">Join</h6>
                             </div>
 
-                            <div className="d-flex flex-column align-items-center">
-                                <button onClick={handleShare}  type="submit" className="btn function func-share">
-                                    <i className="fas fa-share-alt p-2" />
-                                </button>
-                                <h6 className="pt-3">Share</h6>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
